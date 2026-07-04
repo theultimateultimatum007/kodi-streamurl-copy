@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.streamurlcopy"
+       name="Stream URL Copy"
+       version="1.0.0"
+       provider-name="StreamURLCopy">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>30000</label>
+                <visible>Player.HasMedia</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Copy the stream URL of the current playing video to the clipboard</summary>
+        <description lang="en_GB">Adds a context menu entry and a runnable script that copies the URL / file path of the currently playing video (or audio) to the system clipboard. Works while media is playing. Useful for grabbing direct stream links for debugging, sharing or downloading.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>

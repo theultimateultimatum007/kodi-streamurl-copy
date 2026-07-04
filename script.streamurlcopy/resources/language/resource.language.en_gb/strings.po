@@ -1,0 +1,35 @@
+# Kodi Media Center language file
+# Addon Name: Stream URL Copy
+# Addon id: script.streamurlcopy
+msgid ""
+msgstr ""
+"Project-Id-Version: script.streamurlcopy\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+
+msgctxt "#30000"
+msgid "Copy Stream URL"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Nothing is playing"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Stream URL copied to clipboard"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Could not access clipboard"
+msgstr ""
+
+msgctxt "#30100"
+msgid "General"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Always show the URL in a dialog after copying"
+msgstr ""
