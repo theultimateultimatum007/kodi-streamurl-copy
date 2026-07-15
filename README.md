@@ -14,8 +14,6 @@ Add-on pro Kodi který umožnuje kopírování stream odkazů do programů jako 
 
 ( ! STREAM V KODI MUSÍ ZŮSTAT OTEVŘENÝ DOKUD STAHOVÁNI NENÍ U KONCE ! )
 
-## YouTube Tutoriál
-TBA
+## Jak použít na Arch Linuxu
 
-## Discord Server
-https://discord.gg/VjEj79wRmp
+1. "sudo pacman -S xclip xsel"
